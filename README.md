@@ -22,8 +22,8 @@ Make sure you have the following and dependencies listed installed on your syste
 
 
 ## Components Used
-- **CalendarView**: Parent Components to EventForm and EventListItem.It Handles form for adding input Events and display the list as per Filters
-- **EventForm**: Used for add New User Input Events with different event details which includes title,description,date,time,event-type.It handles user inputs and shows warnings accordings to give valid input event details.
-- **EventListItem**: Components that displays details of specific event and allows user to edit,delete, and view more details about specific event.
-- **NotFound**: Displays NotFound page for invalid route path and provides link for go to CalendarView path.
+- **EventForm**: Used for adding user input events with different event details which includes title,description,date,time,event-type.It handles user inputs and shows warnings accordingly to give valid input event details.
+- **EventListItem**: Component that displays details of a specific event and allows user to edit,delete, and view in details about specific event.
+- **CalendarView**: It is the Parent Component of EventForm and EventListItem.It Handles form for adding input Events and displays the list as per applied Filters.
+- **NotFound**: Displays NotFound page for invalid route paths and provides link for redirecting to CalendarView path.
 
