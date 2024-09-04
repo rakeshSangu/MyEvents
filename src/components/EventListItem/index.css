@@ -1,0 +1,86 @@
+.event-title-type-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .list-item-heading {
+    color: rgb(43, 87, 220);
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px;
+  }
+  
+  .list-item-event-type-para {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px;
+  }
+  .date-time-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .list-item-date {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px;
+  }
+  .list-item-time {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px;
+  }
+  .list-item-span {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .list-button {
+    width: 30%;
+    background-color: rgb(223, 179, 250);
+    color: black;
+    font-weight: 500;
+    padding: 6px;
+    cursor: pointer;
+  }
+  .description-para {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .list-item-description-heading {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  @media (min-width: 768px) {
+    .event-list-item {
+      width: 30%;
+    }
+    .list-item-heading {
+      font-size: 30px;
+    }
+    .list-item-event-type-para {
+      font-size: 14px;
+    }
+    .list-item-date {
+      font-size: 14px;
+    }
+    .list-item-time {
+      font-size: 14px;
+    }
+    .list-item-span {
+      font-size: 18px;
+    }
+  }
+  
